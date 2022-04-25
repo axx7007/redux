@@ -1,10 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from "react";
+import House from "./House";
 function App() {
   return (
     <div>
-          App
+          <House/>
     </div>
   );
 }

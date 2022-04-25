@@ -1,8 +1,8 @@
 import {configureStore} from '@reduxjs/toolkit'
-
+import count from './counter'
 export const store = configureStore({
     reducer:{
-        count: "Count",
+        counter: count,
         student: 'Student'
     }
 });
